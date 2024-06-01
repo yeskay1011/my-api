@@ -1,6 +1,6 @@
 // userController.js
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const User = require("../model/userModel");
 
 exports.createUser = async (req, res) => {
